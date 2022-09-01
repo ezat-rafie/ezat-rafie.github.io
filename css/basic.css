@@ -1,28 +1,4 @@
-/**
-*	Cvio - Resume/CV Template (HTML)
-*	Version: 1.1
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright © Cvio by beshleyua. All Rights Reserved.
-**/
 
-/* TABLE OF CONTENTS
-	- Basic
-	- Preloader
-	- Container
-	- Columns
-	- Typography
-	- Links
-	- Buttons
-	- Forms
-	- Lists
-	- Code
-	- Tables
-	- Alignment
-	- Text Formating
-	- Blockquote
-	- Animations
-*/
 
 /* - Basic */
 html {
@@ -43,6 +19,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
+}
+
+@media (pointer:coarse) {
+    /* custom css for "touch targets" */
+	.cursor-dot,
+	.cursor-dot-outline{
+		display: none;
+	}
 }
 
 /* ===== Scrollbar ===== */
