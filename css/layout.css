@@ -3367,7 +3367,12 @@
 
 .reviews-item .info {
 	margin-top: 10px;
-	margin-left: 85px;
+}
+
+.reviews-item .review-user{
+	font-size: 45px;
+    float: left; 
+    width: 60px;
 }
 
 .reviews-item .name {
