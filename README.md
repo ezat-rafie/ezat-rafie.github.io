@@ -99,9 +99,11 @@ The repository has the following structure:
 Customizing the Website
 -----------------------
 
-To customize the website, you'll need to edit the HTML, CSS, and JavaScript files. The `index.html`, `resume.html`,  `works.html`, and `contacts.html` files contain the content of the website. The `css/` folder contains the CSS files that define the styles for the website, and the `js/` folder contains the JavaScript files that define the website's interactive behavior.
+To customize the website, you'll need to edit the HTML, CSS, and JavaScript files. First clone the repository to your local directory. Then make the changes to the following files. The `index.html`, `resume.html`,  `works.html`, and `contacts.html` files contain the content of the website. The `css/` folder contains the CSS files that define the styles for the website, and the `js/` folder contains the JavaScript files that define the website's interactive behavior.
 
 To add a new project to the website, add it to the `works.html` and add the necessary files (e.g. images, HTML files, and JavaScript files) to showcase new projects.
+
+Commit your changes and push the code to this repository.
 
 Deploying the Website
 ---------------------
